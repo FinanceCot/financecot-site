@@ -1,0 +1,18 @@
+<header class="sticky top-0 z-40 border-b bg-white/80 backdrop-blur supports-[backdrop-filter]:bg-white/60">
+  <div class="mx-auto max-w-6xl px-4 py-3 flex items-center justify-between">
+    <div class="flex items-center gap-3">
+      <img src="{{ '/assets/img/logo.svg' | relative_url }}" alt="FinanceCot" class="h-9 w-9 rounded-xl" />
+      <div class="leading-tight">
+        <a href="{{ '/' | relative_url }}" class="brand font-extrabold tracking-tight text-lg">FinanceCot</a>
+        <p class="text-xs text-slate-500">{{ site.tagline }}</p>
+      </div>
+    </div>
+    <nav class="hidden md:flex items-center gap-6 text-sm">
+      <a href="{{ '/blog/' | relative_url }}" class="hover:text-indigo-600">Blog</a>
+      <a href="{{ '/recursos/' | relative_url }}" class="hover:text-indigo-600">Recursos</a>
+      <a href="{{ '/sobre/' | relative_url }}" class="hover:text-indigo-600">Sobre mí</a>
+      <a href="{{ '/contacto/' | relative_url }}" class="hover:text-indigo-600">Contacto</a>
+    </nav>
+    <a href="{{ '/#newsletter' | relative_url }}" class="rounded-xl bg-indigo-600 px-3 py-2 text-white text-sm font-medium hover:bg-indigo-700">Guía gratuita</a>
+  </div>
+</header>

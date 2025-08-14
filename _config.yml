@@ -1,0 +1,9 @@
+title: FinanceCot
+tagline: Consejos reales, cero humo
+url: https://www.financecot.com
+baseurl: ""
+timezone: Europe/Madrid
+markdown: kramdown
+kramdown:
+  input: GFM
+permalink: /blog/:title/
